@@ -1,0 +1,18 @@
+<?php echo $nombre?>
+<?= $nombre?>
+
+foreach($color as $color){
+    echo $color .'<br>'
+}
+foreach($color as $color):
+    echo $color .'<br>'
+endforeach
+
+require 'footer.php' => Llamar como componenetes a la pagian htmls de php
+echo '<br>'; => Tambien imprime copdigo html
+echo '<h1>'.$valor.'</h1>' => Concatenar variables en la etqiuueta html
+$nombre = 'Hola' => Funciona como un let se cambia en el transcurso
+define('Nombre', 'Nombre') => Funciona como un const variable ya no cambia
+var_dump($nombre);die() => Te imprime el tipo de variable que es
+die() => Sirve para para una instriccion
+print_r($nombre);die();
